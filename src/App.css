@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -35,4 +36,69 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1{
+  color: white;
+}
+
+select{
+  margin-bottom: 10px;
+  font-size: 24px;
+  width: 380px;
+  background-color: #020202;
+  color: white;
+}
+
+input{
+  margin-bottom: 10px;
+  width: 380px;
+  font-size: 24px;
+  background-color: black;
+  color: white;
+}
+
+button{
+  margin-bottom: 10px;
+  width: 380px;
+  font-size: 24px;
+  background-color: #020202;
+  color: white;
+}
+
+button:hover{
+  background-color: blue;
+}
+
+.meme{
+  margin: auto;
+  background-color: #282c34;
+  width: 380px;
+  height: 380px;
+}
+
+img{
+  margin: auto;
+  position: relative;
+  top: -43px;
+  width: 100%;
+}
+
+span{
+  z-index: 1;
+  font-size: 40px;
+  width: 100%;
+  left: 0px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.span1{
+  position: absolute;
+  margin-top: 40px;
+}
+
+.span2{
+  position: absolute;
+  margin-top: 340px;
 }
